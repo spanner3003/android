@@ -241,7 +241,7 @@
   <project path="packages/wallpapers/MusicVisualization" name="CyanogenMod/android_packages_wallpapers_MusicVisualization" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
-  <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
+  <project path="prebuilt" name="spanner3003/android_prebuilt" />
   <project path="vendor/cm" name="spanner3003/android_vendor_cm" />
   <project path="proprietary/vendor/samsung" name="spanner3003/proprietary_vendor_samsung" remote="github" />
   <project path="sdk" name="CyanogenMod/android_sdk" />

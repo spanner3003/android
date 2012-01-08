@@ -246,7 +246,7 @@
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.3_r1" />
   <project path="prebuilt" name="spanner3003/android_prebuilt" />
   <project path="vendor/cm" name="spanner3003/android_vendor_cm" />
-  <project path="proprietary/vendor/samsung" name="spanner3003/proprietary_vendor_samsung" remote="github" />
+  <project path="vendor/samsung" name="spanner3003/proprietary_vendor_samsung" remote="github" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
   <project path="system/core" name="CyanogenMod/android_system_core" />

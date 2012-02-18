@@ -1,4 +1,4 @@
-TeamKang(AOKP) (sgt7-spanner3003)
+TeamKang(AOKP) (spanner3003)
  ===========
  
  Getting Started
@@ -9,7 +9,7 @@ To get started with Android/AOKP, you'll need to get
  
 To initialize your local repository using the TeamKang's trees, use a command like this:
  
-     repo init -u git://github.com/sgt7-spanner3003/android.git -b aokp
+     repo init -u git://github.com/spanner3003/android.git -b aokp
  
  Then to sync up:
  

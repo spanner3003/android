@@ -35,19 +35,27 @@
   <project path="device/generic/goldfish" name="device/generic/goldfish" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/hp/tenderloin" name="AOKP/android_device_hp_tenderloin" remote="gh" revision="aokp" />
+  <project path="device/htc/inc" name="AOKP/android_device_htc_inc" remote="gh" revision="ics" />
+  <project path="device/htc/supersonic" name="AOKP/android_device_htc_supersonic" remote="gh" revision="ics" />
+  <project path="device/htc/vivow" name="AOKP/android_device_htc_vivow" remote="gh" revision="ics" />
+  <project path="device/htc/common" name="CyanogenMod/android_device_htc_common" remote="gh" revision="gingerbread" />
+  <project path="device/htc/msm7x30-common" name="AOKP/android_device_htc_msm7x30-common" remote="gh" revision="ics" />
+  <project path="device/hp/tenderloin" name="AOKP/android_device_hp_tenderloin" remote="gh" revision="ics" />
   <project path="device/moto/common" name="device/moto/common" />
-  <project path="device/moto/stingray" name="device/moto/stingray" />
-  <project path="device/moto/wingray" name="device/moto/wingray" />
+  <project path="device/moto/stingray" name="AOKP/device_moto_stingray" remote="gh" revision="ics" />
+  <project path="device/moto/wingray" name="AOKP/device_moto_wingray" remote="gh" revision="ics" />
   <project path="device/sample" name="device/sample" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="gh" revision="ics" />
-  <project path="device/samsung/crespo4g" name="peteralfonso/platform_device_samsung_crespo4g" remote="gh" revision="ics" />
-  <project path="device/samsung/galaxytab" name="sgt7-spanner3003/device_samsung_galaxytab" remote="gh" revision="aokp"/>
+  <project path="device/samsung/crespo4g" name="AOKP/device_samsung_crespo4g" remote="gh" revision="ics" />
+  <project path="device/samsung/galaxytab" name="sgt7-spanner3003/device_samsung_galaxytab" remote="gh" revision="master"/>
   <project path="device/samsung/maguro" name="AOKP/device_samsung_maguro" remote="gh" revision="master" />
+  <project path="device/samsung/p4" name="AOKP/device_samsung_p4" remote="gh" revision="ics" />
   <project path="device/samsung/p4-common" name="AOKP/device_samsung_p4-common" remote="gh" revision="ics" />
+  <project path="device/samsung/p4vzw" name="AOKP/device_samsung_p4vzw" remote="gh" revision="ics" />
   <project path="device/samsung/p4wifi" name="AOKP/device_samsung_p4wifi" remote="gh" revision="ics" />
   <project path="device/samsung/toro" name="AOKP/device_samsung_toro" remote="gh" revision="master" />
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="gh" revision="ics" />
+  <project path="device/samsung/vzwtab" name="AOKP/device_samsung_vzwtab" remote="gh" revision="AOKP" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-mock" name="platform/external/android-mock" />
@@ -185,10 +193,11 @@
   <project path="hardware/libhardware" name="AOKP/hardware_libhardware" remote="gh" revision="master" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="gh" revision="ics" />
   <project path="hardware/qcom/display" name="AOKP/android_hardware_qcom_display" remote="gh" revision="ics" />
+  <project path="hardware/qcom/camera" name="AOKP/android_hardware_qcom_camera" remote="gh" revision="ics" />
   <project path="hardware/msm7k" name="AOKP/hardware_msm7k" remote="gh" revision="master" />
   <project path="hardware/qcom/gps" name="AOKP/hardware_qcom_gps" remote="gh" revision="master" />
   <project path="hardware/qcom/media" name="AOKP/hardware_qcom_media" remote="gh" revision="master" />
-  <project path="hardware/ril" name="platform/hardware/ril" />
+  <project path="hardware/ril" name="AOKP/android_hardware_ril" remote="gh" revision="ics" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="libcore" name="platform/libcore" />
@@ -210,7 +219,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
-  <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
+  <project path="packages/apps/Mms" name="AOKP/packages_apps_Mms" remote="gh" revision="master" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
@@ -256,17 +265,19 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="master" />
-  
+
   <project path="vendor/samsung" name="sgt7-spanner3003/proprietary_vendor_samsung" remote="gh" revision="ics" />
   <project path="vendor/imgtec" name="AOKP/vendor_imgtec" remote="gh" revision="master" />
-  <project path="vendor/aokp" name="sgt7-spanner3003/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
-  
+  <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="master" />
+  <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="gh" revision="master" />
+
   <project path="external/busybox" name="CyanogenMod/android_external_busybox.git" remote="gh" revision="ics" />
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="gh" revision="master" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="gh" revision="ics" />
 
-  <project path="android" name="sgt7-spanner3003/android" remote="gh" revision="aokp" />
 </manifest>

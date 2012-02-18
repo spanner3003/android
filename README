@@ -1,2 +1,32 @@
-$ repo init -u https://github.com/AOKP/platform_manifest.git -b master
-$ repo sync
+TeamKang(AOKP) (sgt7)
+ ===========
+ 
+ Getting Started
+ ---------------
+ 
+To get started with Android/AOKP, you'll need to get
+ familiar with [Git and Repo](http://source.android.com/download/using-repo).
+ 
+To initialize your local repository using the TeamKang's trees, use a command like this:
+ 
+     repo init -u git://github.com/sgt7/android.git -b aokp
+ 
+ Then to sync up:
+ 
+     repo sync
+ 
+ Building
+ --------
+ 
+After the sync is finished, please read the [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+ 
+Once you've read that, you can build with
+ 
+    mka
+ 
+This will compile everything and use the correct "-j#" flag.
+ 
+You can also build a flashable zip with
+ 
+    mka otapackage
+    or mka bacon
